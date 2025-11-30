@@ -1,0 +1,182 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, blue, #87CEEB, blue);
+            color: #C0C0C0;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            border: 2px solid #C0C0C0;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #C0C0C0;
+        }
+        
+        .trophy-icon {
+            font-size: 4rem;
+            margin-bottom: 15px;
+            text-shadow: 0 0 10px rgba(192, 192, 192, 0.5);
+        }
+        
+        h1 {
+            color: #C0C0C0;
+            font-size: 3rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        
+        .subtitle {
+            color: #FFFFFF;
+            font-size: 1.5rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .tournament-details, .team-performance {
+            background-color: rgba(0, 0, 139, 0.3);
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #C0C0C0;
+        }
+        
+        .section-title {
+            color: #C0C0C0;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            text-align: center;
+            border-bottom: 1px solid #C0C0C0;
+            padding-bottom: 10px;
+        }
+        
+        .detail-item {
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px dashed #C0C0C0;
+        }
+        
+        .detail-label {
+            font-weight: bold;
+            color: #FFFFFF;
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        .detail-value {
+            color: #C0C0C0;
+        }
+        
+        .match-result {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            padding: 8px;
+            background-color: rgba(0, 0, 0, 0.3);
+            border-radius: 5px;
+        }
+        
+        .match-teams {
+            color: #FFFFFF;
+        }
+        
+        .match-score {
+            color: #C0C0C0;
+            font-weight: bold;
+        }
+        
+        .silver-medal {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .medal-icon {
+            font-size: 5rem;
+            margin-bottom: 10px;
+            text-shadow: 0 0 15px rgba(192, 192, 192, 0.7);
+        }
+        
+        .medal-text {
+            color: #C0C0C0;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        .champion-info {
+            text-align: center;
+            margin-top: 20px;
+            padding: 15px;
+            background-color: rgba(192, 192, 192, 0.1);
+            border-radius: 10px;
+            border: 1px solid #C0C0C0;
+        }
+        
+        .champion-flag {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+        
+        .btn-back {
+            display: inline-block;
+            background: linear-gradient(135deg, #00008B, #1E90FF);
+            color: #C0C0C0;
+            padding: 12px 25px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            border: 1px solid #C0C0C0;
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .btn-back:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+            background: linear-gradient(135deg, #1E90FF, #00008B);
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #C0C0C0;
+            color: #FFFFFF;
+        }
+        
+        @media (max-width: 768px) {
+            .content {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 2.2rem;
+            }
+            
+            .subtitle {
+                font-size: 1.2rem;
+            }
+        }

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asian Games 2002 - Busan</title>
+    <link rel="stylesheet" href="style6.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="games-icon">🎯</div>
+            <h1>14th Asian Games</h1>
+            <p class="subtitle">BUSAN 2002</p>
+        </header>
+        
+        <div class="silver-medal">
+            <div class="medal-icon">🥈</div>
+            <div class="medal-text">MEDALHA DE PRATA</div>
+        </div>
+        
+        <div class="content">
+            <div class="games-details">
+                <h2 class="section-title">Detalhes dos Jogos</h2>
+                
+                <div class="detail-item">
+                    <span class="detail-label">Data:</span>
+                    <span class="detail-value">29 de Setembro a 14 de Outubro de 2002</span>
+                </div>
+                
+                <div class="detail-item">
+                    <span class="detail-label">Sede:</span>
+                    <span class="detail-value">Busan, Coreia do Sul</span>
+                </div>
+                
+                <div class="detail-item">
+                    <span class="detail-label">Países Participantes:</span>
+                    <span class="detail-value">44 países</span>
+                </div>
+                
+                <div class="detail-item">
+                    <span class="detail-label">Atletas:</span>
+                    <span class="detail-value">7.711 atletas</span>
+                </div>
+                
+                <div class="detail-item">
+                    <span class="detail-label">Esportes:</span>
+                    <span class="detail-value">38 esportes</span>
+                </div>
+                
+                <div class="detail-item">
+                    <span class="detail-label">País-sede no Quadro de Medalhas:</span>
+                    <span class="detail-value">Coreia do Sul - 2º lugar (96 ouros)</span>
+                </div>
+                
+                <div class="detail-item">
+                    <span class="detail-label">Japão no Quadro de Medalhas:</span>
+                    <span class="detail-value">3º lugar (44 ouros)</span>
+                </div>
+            </div>
+            
+            <div class="team-performance">
+                <h2 class="section-title">Principais Conquistas do Japão</h2>
+                
+                <div class="sport-result">
+                    <div class="sport-event">Futebol Masculino</div>
+                    <div class="sport-medal">PRATA</div>
+                </div>
+                
+                <div class="sport-result">
+                    <div class="sport-event">Judô (16 categorias)</div>
+                    <div class="sport-medal">8 OUROS</div>
+                </div>
+                
+                <div class="sport-result">
+                    <div class="sport-event">Natação</div>
+                    <div class="sport-medal">11 OUROS</div>
+                </div>
+                
+                <div class="sport-result">
+                    <div class="sport-event">Atletismo</div>
+                    <div class="sport-medal">2 OUROS</div>
+                </div>
+                
+                <div class="sport-result">
+                    <div class="sport-event">Ginástica</div>
+                    <div class="sport-medal">4 OUROS</div>
+                </div>
+                
+                <div class="sport-result">
+                    <div class="sport-event">Lutas</div>
+                    <div class="sport-medal">3 OUROS</div>
+                </div>
+                
+                <div class="sport-result">
+                    <div class="sport-event">Total de Medalhas</div>
+                    <div class="sport-medal">189 medalhas</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="champion-info">
+            <div class="champion-flag">🇮🇷</div>
+            <h3>Irã - Medalha de Ouro no Futebol</h3>
+            <p>A seleção iraniana de futebol conquistou a medalha de ouro após vencer o Japão por 2-1 na final.</p>
+            <p>O Japão conquistou a medalha de prata, demonstrando grande evolução no futebol asiático.</p>
+        </div>
+        
+        <div style="text-align: center;">
+            <a href="javascript:window.close()" class="btn-back">Voltar para Jogadores</a>
+        </div>
+        
+        <footer>
+        <p>&copy; 2025 Seleção Japonesa Masculina - Todos os direitos reservados</p>
+
+        <div class="social-info">
+            Se precisar de mais informações, veja as redes sociais da JFA official:
+        </div>
+        <div class="social-links">
+            <a href="https://www.jfa.jp/eng/" target="_blank" title="Site Oficial">🔎</a>
+            <a href="https://www.instagram.com/japanfootballassociation/" target="_blank" title="Instagram">📷</a>
+            <a href="https://twitter.com/jfa_samuraiblue" target="_blank" title="Twitter">🐦</a>
+            <a href="https://www.youtube.com/@jfa" target="_blank" title="YouTube">📺</a>
+        </div>
+        </footer>
+    <script>
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                window.scrollTo({
+                    top: targetElement.offsetTop - 80,
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+    </div>
+</body>
+</html>
